@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: radial-gradient(circle, rgba(67,198,172,1) 33%, rgb(86, 91, 90) 83%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+form input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    font-size: 1rem;
+    width: calc(50% - 5px);
+}
+
+form input:focus {
+    border-color: rgb(40, 39, 39);
+    outline: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgb(86, 91, 90);
+}
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: rgb(86, 91, 90);
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+tbody tr {
+    background-color: rgb(111, 147, 140);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: rgb(86, 91, 90);
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+footer p, footer address {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
